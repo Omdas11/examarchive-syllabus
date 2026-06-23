@@ -18,7 +18,7 @@ export function Header() {
         <div className="flex items-center gap-4">
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-neutral-600 dark:text-neutral-400">
             <Link href="/" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Home</Link>
-            <Link href="/login" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Admin Login</Link>
+            <Link href="/login" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Login</Link>
           </nav>
           <div className="h-6 w-px bg-neutral-200 dark:bg-neutral-800 hidden md:block"></div>
           <ThemeToggle />
