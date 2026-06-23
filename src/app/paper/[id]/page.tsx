@@ -1,9 +1,10 @@
 import { getSyllabusData, getAllSyllabusIds } from '@/lib/syllabus';
 import Link from 'next/link';
-import { ArrowLeft, CheckCircle2, ChevronRight, Hash } from 'lucide-react';
+import { ArrowLeft, ChevronRight } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
+import ApproveButton from './ApproveButton';
 
 export async function generateStaticParams() {
   const ids = getAllSyllabusIds();
@@ -53,7 +54,10 @@ export default async function PaperReview({ params }: { params: Promise<{ id: st
               </p>
             </div>
             
-            <div className="flex flex-col gap-2 p-4 bg-neutral-50 dark:bg-neutral-950 rounded-xl border border-neutral-100 dark:border-neutral-800 min-w-[200px]">
+            <div className="flex flex-col gap-4">
+              <ApproveButton id={id} />
+              
+              <div className="flex flex-col gap-2 p-4 bg-neutral-50 dark:bg-neutral-950 rounded-xl border border-neutral-100 dark:border-neutral-800 min-w-[200px]">
               <div className="flex justify-between text-sm">
                 <span className="text-neutral-500">Credits</span>
                 <span className="font-semibold">{fm.credits}</span>
