@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Examarchive Syllabus Review",
+  title: "Syllabus Vault",
   description: "Review and approve dynamically generated syllabus files",
 };
 

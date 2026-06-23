@@ -22,7 +22,7 @@ export default function Home() {
     <div className="min-h-screen bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100 p-8 font-[family-name:var(--font-geist-sans)]">
       <main className="max-w-6xl mx-auto flex flex-col gap-12">
         <header className="flex flex-col gap-2 pb-6 border-b border-neutral-200 dark:border-neutral-800">
-          <h1 className="text-4xl font-extrabold tracking-tight">Syllabus Reviewer</h1>
+          <h1 className="text-4xl font-extrabold tracking-tight">Syllabus Vault</h1>
           <p className="text-lg text-neutral-500 dark:text-neutral-400">
             Select a paper below to visually review the extracted Markdown content.
           </p>

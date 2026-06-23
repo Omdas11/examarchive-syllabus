@@ -11,7 +11,7 @@ export function Header() {
             <div className="bg-blue-600 text-white p-1.5 rounded-lg">
               <BookOpen className="w-5 h-5" />
             </div>
-            ExamArchive Review
+            Syllabus Vault
           </Link>
         </div>
         
