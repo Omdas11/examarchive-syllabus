@@ -74,6 +74,7 @@ export default async function PaperReview({ params }: { params: Promise<{ id: st
                 <span className="text-neutral-500">Semester</span>
                 <span className="font-semibold">{fm.semester_no}</span>
               </div>
+              </div>
             </div>
           </div>
         </header>
