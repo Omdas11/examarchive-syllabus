@@ -80,8 +80,33 @@ export default async function PaperReview({ params }: { params: Promise<{ id: st
         </header>
 
         <section className="bg-white dark:bg-neutral-900 p-6 md:p-10 rounded-2xl shadow-sm border border-neutral-200 dark:border-neutral-800">
-          <div className="prose prose-neutral dark:prose-invert max-w-none prose-headings:font-bold prose-h2:text-2xl prose-h2:border-b prose-h2:pb-2 prose-h2:mb-6 prose-table:w-full prose-table:border-collapse prose-th:bg-neutral-100 dark:prose-th:bg-neutral-800 prose-th:p-3 prose-th:border prose-th:border-neutral-300 dark:prose-th:border-neutral-700 prose-td:p-3 prose-td:border prose-td:border-neutral-200 dark:prose-td:border-neutral-800 prose-td:align-top">
-            <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+          <div className="prose prose-neutral dark:prose-invert max-w-none prose-headings:font-bold prose-h2:text-2xl prose-h2:border-b prose-h2:pb-2 prose-h2:mb-6">
+            <ReactMarkdown 
+              remarkPlugins={[remarkGfm]} 
+              rehypePlugins={[rehypeRaw]}
+              components={{
+                table: ({ node, ...props }) => (
+                  <div className="overflow-x-auto my-8 rounded-xl border border-neutral-200 dark:border-neutral-700 shadow-sm">
+                    <table className="w-full text-left border-collapse text-sm" {...props} />
+                  </div>
+                ),
+                thead: ({ node, ...props }) => (
+                  <thead className="bg-neutral-50 dark:bg-neutral-800/50 text-neutral-900 dark:text-neutral-100 font-semibold" {...props} />
+                ),
+                tbody: ({ node, ...props }) => (
+                  <tbody className="divide-y divide-neutral-200 dark:divide-neutral-700/50" {...props} />
+                ),
+                tr: ({ node, ...props }) => (
+                  <tr className="hover:bg-neutral-50/50 dark:hover:bg-neutral-800/20 transition-colors" {...props} />
+                ),
+                th: ({ node, ...props }) => (
+                  <th className="px-4 py-3 font-semibold border-b border-neutral-200 dark:border-neutral-700" {...props} />
+                ),
+                td: ({ node, ...props }) => (
+                  <td className="px-4 py-3 align-top text-neutral-700 dark:text-neutral-300" {...props} />
+                ),
+              }}
+            >
               {syllabusData.content}
             </ReactMarkdown>
           </div>
