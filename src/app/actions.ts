@@ -9,8 +9,27 @@ const apiKey = process.env.APPWRITE_API_KEY!;
 const databaseId = process.env.DATABASE_ID || 'examarchive';
 const syllabusCollectionId = 'Syllabus_Table';
 
-export async function approveAndPublishSyllabus(id: string) {
+export async function approveAndPublishSyllabus(id: string, captchaToken: string) {
   try {
+    // 1. Verify Turnstile token
+    const secretKey = process.env.TURNSTILE_SECRET_KEY;
+    if (!secretKey) throw new Error("Missing Turnstile secret key");
+
+    const formData = new FormData();
+    formData.append("secret", secretKey);
+    formData.append("response", captchaToken);
+
+    const captchaRes = await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify", {
+      method: "POST",
+      body: formData,
+    });
+    const captchaData = await captchaRes.json();
+
+    if (!captchaData.success) {
+      return { success: false, error: "CAPTCHA verification failed." };
+    }
+
+    // 2. Insert into Appwrite
     const syllabusData = getSyllabusData(id);
     const { frontmatter, content } = syllabusData;
 
@@ -20,15 +39,6 @@ export async function approveAndPublishSyllabus(id: string) {
       .setKey(apiKey);
 
     const databases = new Databases(client);
-
-    // Prepare payload matching the Appwrite Syllabus_Table schema plus the new `status` column
-    // The SyllabusTableRow in examarchive-v3 expects:
-    // entry_id, university, course, stream, type, paper_code, paper_name, subject, unit_number, syllabus_content, lectures, tags
-    
-    // We'll create one single document per syllabus since the content is currently just the whole markdown string.
-    // Wait, the main site splits by unit. If the unit_number is not strictly separated in our markdown, 
-    // we can just put the whole markdown into unit 1, or parse it properly. For now, since the new schema 
-    // allows a full markdown dump, we'll insert it as unit 1.
     
     const payload = {
       entry_id: frontmatter.entry_id || id,

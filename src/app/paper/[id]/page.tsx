@@ -22,7 +22,7 @@ export default async function PaperReview({ params }: { params: Promise<{ id: st
     <div className="min-h-screen bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100 p-4 md:p-8 font-[family-name:var(--font-geist-sans)]">
       <main className="max-w-4xl mx-auto flex flex-col gap-8 pb-16">
         
-        <nav className="flex items-center text-sm text-neutral-500 font-medium">
+        <nav className="flex items-center text-sm text-neutral-500 font-medium mb-4">
           <Link href="/" className="hover:text-blue-600 transition-colors flex items-center gap-1">
             <ArrowLeft className="w-4 h-4" /> Home
           </Link>
@@ -80,7 +80,7 @@ export default async function PaperReview({ params }: { params: Promise<{ id: st
         </header>
 
         <section className="bg-white dark:bg-neutral-900 p-6 md:p-10 rounded-2xl shadow-sm border border-neutral-200 dark:border-neutral-800">
-          <div className="prose prose-neutral dark:prose-invert max-w-none prose-headings:font-bold prose-h2:text-2xl prose-h2:border-b prose-h2:pb-2 prose-h2:mb-6 prose-table:w-full prose-th:bg-neutral-100 dark:prose-th:bg-neutral-800 prose-th:p-3 prose-td:p-3 prose-tr:border-b prose-tr:border-neutral-200 dark:prose-tr:border-neutral-800 prose-td:align-top">
+          <div className="prose prose-neutral dark:prose-invert max-w-none prose-headings:font-bold prose-h2:text-2xl prose-h2:border-b prose-h2:pb-2 prose-h2:mb-6 prose-table:w-full prose-table:border-collapse prose-th:bg-neutral-100 dark:prose-th:bg-neutral-800 prose-th:p-3 prose-th:border prose-th:border-neutral-300 dark:prose-th:border-neutral-700 prose-td:p-3 prose-td:border prose-td:border-neutral-200 dark:prose-td:border-neutral-800 prose-td:align-top">
             <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
               {syllabusData.content}
             </ReactMarkdown>
