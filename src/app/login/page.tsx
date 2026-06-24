@@ -38,13 +38,13 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-[60vh] p-4">
-      <div className="w-full max-w-md bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-2xl shadow-sm p-8">
-        <h1 className="text-2xl font-bold text-neutral-900 dark:text-white mb-6 text-center">
+    <div className="flex flex-col items-center justify-center min-h-[60vh] p-4 bg-surface">
+      <div className="w-full max-w-md card p-8">
+        <h1 className="text-2xl font-bold text-neutral-900 dark:text-white mb-6 text-center ea-hero-heading text-primary">
           Login
         </h1>
         {error && (
-          <div className="bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-400 p-3 rounded-lg text-sm mb-4 border border-red-200 dark:border-red-800/50">
+          <div className="bg-error-container text-on-error-container p-3 rounded-lg text-sm mb-4 border border-error/50">
             {error}
           </div>
         )}
@@ -58,7 +58,7 @@ export default function LoginPage() {
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full px-4 py-2 bg-neutral-50 dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-shadow"
+              className="input-field"
               placeholder="user@examarchive.com"
             />
           </div>
@@ -71,7 +71,7 @@ export default function LoginPage() {
               required
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="w-full px-4 py-2 bg-neutral-50 dark:bg-neutral-950 border border-neutral-200 dark:border-neutral-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-shadow"
+              className="input-field"
               placeholder="••••••••"
             />
           </div>
@@ -86,7 +86,7 @@ export default function LoginPage() {
           <button
             type="submit"
             disabled={loading || !captchaToken}
-            className="w-full mt-2 py-2.5 bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 disabled:cursor-not-allowed text-white font-semibold rounded-lg shadow-sm transition-colors"
+            className="btn-primary w-full mt-2 disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {loading ? "Logging in..." : "Login"}
           </button>
