@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
-import type { PluginAPI } from "tailwindcss/types/config";
+// Removed PluginAPI import for Tailwind v4 compatibility
+type PluginAPI = any;
 
 const config: Config = {
   content: [
