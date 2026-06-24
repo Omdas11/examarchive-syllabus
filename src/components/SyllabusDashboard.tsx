@@ -14,6 +14,8 @@ export default function SyllabusDashboard({ syllabi }: SyllabusDashboardProps) {
   const [paperType, setPaperType] = useState<string>("All");
   const [semester, setSemester] = useState<string>("All");
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
+  const [currentPage, setCurrentPage] = useState(1);
+  const ITEMS_PER_PAGE = 24;
 
   // Determine departments based on paper_code prefixes
   const getDepartment = (paperCode: string, type: string) => {
@@ -44,6 +46,9 @@ export default function SyllabusDashboard({ syllabi }: SyllabusDashboardProps) {
   const paperTypes = ["All", "DSC", "DSM", "SEC", "IDC", "AEC", "VAC", "INT", "RPD"];
   const semesters = ["All", "1", "2", "3", "4", "5", "6", "7", "8"];
 
+  const totalPages = Math.ceil(filteredSyllabi.length / ITEMS_PER_PAGE);
+  const paginatedSyllabi = filteredSyllabi.slice((currentPage - 1) * ITEMS_PER_PAGE, currentPage * ITEMS_PER_PAGE);
+
   return (
     <div className="flex flex-col gap-8 w-full">
       {/* Controls */}
@@ -54,7 +59,7 @@ export default function SyllabusDashboard({ syllabi }: SyllabusDashboardProps) {
             <select 
               className="input-field py-2 pr-8"
               value={department}
-              onChange={(e) => setDepartment(e.target.value)}
+              onChange={(e) => { setDepartment(e.target.value); setCurrentPage(1); }}
             >
               {departments.map(d => <option key={d} value={d}>{d}</option>)}
             </select>
@@ -65,7 +70,7 @@ export default function SyllabusDashboard({ syllabi }: SyllabusDashboardProps) {
             <select 
               className="input-field py-2 pr-8"
               value={paperType}
-              onChange={(e) => setPaperType(e.target.value)}
+              onChange={(e) => { setPaperType(e.target.value); setCurrentPage(1); }}
             >
               {paperTypes.map(t => <option key={t} value={t}>{t}</option>)}
             </select>
@@ -76,7 +81,7 @@ export default function SyllabusDashboard({ syllabi }: SyllabusDashboardProps) {
             <select 
               className="input-field py-2 pr-8"
               value={semester}
-              onChange={(e) => setSemester(e.target.value)}
+              onChange={(e) => { setSemester(e.target.value); setCurrentPage(1); }}
             >
               {semesters.map(s => <option key={s} value={s}>{s === "All" ? "All Semesters" : `Semester ${s}`}</option>)}
             </select>
@@ -113,7 +118,7 @@ export default function SyllabusDashboard({ syllabi }: SyllabusDashboardProps) {
         <>
           {viewMode === "grid" ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 animate-page-in">
-              {filteredSyllabi.map(({ id, frontmatter }) => (
+              {paginatedSyllabi.map(({ id, frontmatter }) => (
                 <Link 
                   key={id} 
                   href={`/paper/${id}`}
@@ -164,7 +169,7 @@ export default function SyllabusDashboard({ syllabi }: SyllabusDashboardProps) {
                   </tr>
                 </thead>
                 <tbody>
-                  {filteredSyllabi.map(({ id, frontmatter }) => (
+                  {paginatedSyllabi.map(({ id, frontmatter }) => (
                     <tr key={id} className="group cursor-pointer" onClick={() => window.location.href = `/paper/${id}`}>
                       <td className="font-mono text-sm font-medium text-primary group-hover:underline">
                         {frontmatter.paper_code}
@@ -182,6 +187,36 @@ export default function SyllabusDashboard({ syllabi }: SyllabusDashboardProps) {
                   ))}
                 </tbody>
               </table>
+            </div>
+          )}
+
+          {/* Pagination Controls */}
+          {totalPages > 1 && (
+            <div className="flex items-center justify-between pt-8 mt-4 border-t border-outline-variant/20">
+              <span className="text-sm text-neutral-500">
+                Showing {((currentPage - 1) * ITEMS_PER_PAGE) + 1} to {Math.min(currentPage * ITEMS_PER_PAGE, filteredSyllabi.length)} of {filteredSyllabi.length} papers
+              </span>
+              <div className="flex items-center gap-2">
+                <button
+                  className="btn btn-secondary px-4 py-2"
+                  disabled={currentPage === 1}
+                  onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                >
+                  Previous
+                </button>
+                <div className="flex items-center gap-1 mx-2">
+                  <span className="text-sm font-semibold text-neutral-700 dark:text-neutral-300">
+                    Page {currentPage} of {totalPages}
+                  </span>
+                </div>
+                <button
+                  className="btn btn-secondary px-4 py-2"
+                  disabled={currentPage === totalPages}
+                  onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+                >
+                  Next
+                </button>
+              </div>
             </div>
           )}
         </>
