@@ -17,7 +17,10 @@ export default function ApproveButton({ id }: { id: string }) {
   useEffect(() => {
     account.get()
       .then(() => setIsAuthenticated(true))
-      .catch(() => setIsAuthenticated(false));
+      .catch((e) => {
+        console.error("Appwrite Auth Error:", e);
+        setIsAuthenticated(false);
+      });
   }, []);
 
   const handleApprove = async () => {
