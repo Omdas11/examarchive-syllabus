@@ -46,10 +46,10 @@ export default function ApproveButton({ id }: { id: string }) {
 
   if (isAuthenticated === false) {
     return (
-      <Link href="/login" className="flex items-center gap-2 px-6 py-3 bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-700 text-neutral-900 dark:text-neutral-100 rounded-xl font-bold transition-colors">
+      <a href="https://examarchive.dev/login" className="flex items-center gap-2 px-6 py-3 bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-700 text-neutral-900 dark:text-neutral-100 rounded-xl font-bold transition-colors">
         <Lock className="w-5 h-5" />
         Login to Approve
-      </Link>
+      </a>
     );
   }
 
