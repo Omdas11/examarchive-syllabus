@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { BookOpen, Calendar, Clock, FileText, LayoutGrid, List } from 'lucide-react';
+import { BookOpen, Clock, FileText, LayoutGrid, List } from 'lucide-react';
 import { SyllabusData } from '@/lib/syllabus';
 
 interface SyllabusDashboardProps {

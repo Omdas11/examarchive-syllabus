@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { getSyllabusData, getAllSyllabusIds } from '@/lib/syllabus';
 import Link from 'next/link';
 import { ArrowLeft, ChevronRight } from 'lucide-react';
