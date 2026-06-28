@@ -18,6 +18,10 @@ export function Header() {
         <div className="flex items-center gap-4">
           <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-neutral-600 dark:text-neutral-400">
             <Link href="/" className="hover:text-primary transition-colors">Home</Link>
+            <Link href="/profile" className="hover:text-primary transition-colors flex items-center gap-1">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              Profile
+            </Link>
           </nav>
           <div className="h-6 w-px bg-outline-variant/20 hidden md:block"></div>
           <ThemeToggle />

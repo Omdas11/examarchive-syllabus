@@ -13,6 +13,7 @@ export default function SyllabusDashboard({ syllabi }: SyllabusDashboardProps) {
   const [department, setDepartment] = useState<string>("All");
   const [paperType, setPaperType] = useState<string>("All");
   const [semester, setSemester] = useState<string>("All");
+  const [searchTerm, setSearchTerm] = useState("");
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
   const [currentPage, setCurrentPage] = useState(1);
   const ITEMS_PER_PAGE = 24;
@@ -23,6 +24,7 @@ export default function SyllabusDashboard({ syllabi }: SyllabusDashboardProps) {
     if (paperCode.startsWith("BOT")) return "Botany";
     if (paperCode.startsWith("CHM")) return "Chemistry";
     if (paperCode.startsWith("COM")) return "Commerce";
+    if (paperCode.startsWith("PHY")) return "Physics";
     if (paperCode.startsWith("ZOO")) return "Zoology";
     if (paperCode.startsWith("MTM")) return "Mathematics";
     return "Other";
@@ -37,12 +39,19 @@ export default function SyllabusDashboard({ syllabi }: SyllabusDashboardProps) {
       if (department !== "All" && pDept !== department) return false;
       if (paperType !== "All" && pType !== paperType) return false;
       if (semester !== "All" && pSem !== semester) return false;
+      
+      if (searchTerm) {
+        const term = searchTerm.toLowerCase();
+        const titleMatch = paper.frontmatter.paper_title?.toLowerCase().includes(term);
+        const codeMatch = paper.frontmatter.paper_code?.toLowerCase().includes(term);
+        if (!titleMatch && !codeMatch) return false;
+      }
 
       return true;
     }).sort((a, b) => a.frontmatter.paper_code.localeCompare(b.frontmatter.paper_code));
-  }, [syllabi, department, paperType, semester]);
+  }, [syllabi, department, paperType, semester, searchTerm]);
 
-  const departments = ["All", "Botany", "Chemistry", "Commerce", "Mathematics", "Zoology", "Common"];
+  const departments = ["All", "Botany", "Chemistry", "Commerce", "Mathematics", "Physics", "Zoology", "Common"];
   const paperTypes = ["All", "DSC", "DSM", "SEC", "IDC", "AEC", "VAC", "INT", "RPD"];
   const semesters = ["All", "1", "2", "3", "4", "5", "6", "7", "8"];
 
@@ -52,10 +61,28 @@ export default function SyllabusDashboard({ syllabi }: SyllabusDashboardProps) {
   return (
     <div className="flex flex-col gap-8 w-full">
       {/* Controls */}
-      <div className="flex flex-col md:flex-row items-center justify-between gap-4 bg-surface p-4 rounded-2xl border border-outline-variant/20 shadow-sm">
-        <div className="flex flex-wrap items-center gap-4 w-full md:w-auto">
-          <div className="flex flex-col gap-1">
-            <label className="text-xs font-semibold text-neutral-500 uppercase tracking-wider">Department</label>
+      <div className="flex flex-col gap-4 bg-surface p-4 rounded-2xl border border-outline-variant/20 shadow-sm">
+        {/* Search Bar */}
+        <div className="w-full relative">
+          <input 
+            type="text" 
+            placeholder="Search by paper title or code..."
+            className="input-field pl-10"
+            value={searchTerm}
+            onChange={(e) => { setSearchTerm(e.target.value); setCurrentPage(1); }}
+          />
+          <div className="absolute left-4 top-1/2 -translate-y-1/2 text-neutral-400">
+            <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </div>
+        </div>
+
+        {/* Filters */}
+        <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="flex flex-wrap items-center gap-4 w-full md:w-auto">
+            <div className="flex flex-col gap-1">
+              <label className="text-xs font-semibold text-neutral-500 uppercase tracking-wider">Department</label>
             <select 
               className="input-field py-2 pr-8"
               value={department}
@@ -97,13 +124,14 @@ export default function SyllabusDashboard({ syllabi }: SyllabusDashboardProps) {
           >
             <LayoutGrid className="w-5 h-5" />
           </button>
-          <button 
-            onClick={() => setViewMode("list")}
-            className={`p-2 rounded-lg transition-colors ${viewMode === "list" ? "bg-primary/10 text-primary" : "text-neutral-500 hover:bg-neutral-100 dark:hover:bg-neutral-800"}`}
-            title="List View"
-          >
-            <List className="w-5 h-5" />
-          </button>
+            <button 
+              onClick={() => setViewMode("list")}
+              className={`p-2 rounded-lg transition-colors ${viewMode === "list" ? "bg-primary/10 text-primary" : "text-neutral-500 hover:bg-neutral-100 dark:hover:bg-neutral-800"}`}
+              title="List View"
+            >
+              <List className="w-5 h-5" />
+            </button>
+          </div>
         </div>
       </div>
 

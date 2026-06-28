@@ -6,6 +6,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
 import ApproveButton from './ApproveButton';
+import ReportButton from './ReportButton';
 import { cookies } from 'next/headers';
 
 export async function generateStaticParams() {
@@ -60,7 +61,12 @@ export default async function PaperReview({ params }: { params: Promise<{ id: st
             </div>
             
             <div className="flex flex-col gap-4">
-              <ApproveButton id={id} initialIsAuthenticated={isAuthenticated} />
+              <div className="flex flex-col gap-2">
+                <ApproveButton id={id} initialIsAuthenticated={isAuthenticated} />
+                <div className="flex justify-end mt-1">
+                  <ReportButton id={id} isAuthenticated={isAuthenticated} />
+                </div>
+              </div>
               
               <div className="flex flex-col gap-2 p-4 bg-neutral-50 dark:bg-neutral-950 rounded-xl border border-neutral-100 dark:border-neutral-800 min-w-[200px]">
               <div className="flex justify-between text-sm">

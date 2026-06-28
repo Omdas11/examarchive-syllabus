@@ -3,26 +3,34 @@
 import { useState, useEffect } from 'react';
 import { approveAndPublishSyllabus } from '@/app/actions';
 import { Send, CheckCircle, Lock } from 'lucide-react';
-import { account } from '@/lib/appwrite-client';
-import { Turnstile } from '@marsidev/react-turnstile';
 import Link from 'next/link';
 
 export default function ApproveButton({ id, initialIsAuthenticated }: { id: string, initialIsAuthenticated: boolean }) {
   const [isPending, setIsPending] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
   const [error, setError] = useState('');
-  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
+  const [num1, setNum1] = useState(0);
+  const [num2, setNum2] = useState(0);
+  const [userAnswer, setUserAnswer] = useState('');
   const isAuthenticated = initialIsAuthenticated;
 
+  useEffect(() => {
+    setNum1(Math.floor(Math.random() * 10) + 1);
+    setNum2(Math.floor(Math.random() * 10) + 1);
+  }, []);
+
+  const isCaptchaValid = parseInt(userAnswer) === num1 + num2;
+
   const handleApprove = async () => {
-    if (!captchaToken) {
-      setError('Please complete the CAPTCHA.');
+    if (!isCaptchaValid) {
+      setError('Incorrect CAPTCHA answer.');
       return;
     }
     
     setIsPending(true);
     setError('');
     
+    const captchaToken = Buffer.from(`${num1}+${num2}=${userAnswer}`).toString('base64');
     const result = await approveAndPublishSyllabus(id, captchaToken);
     
     if (result.success) {
@@ -58,13 +66,22 @@ export default function ApproveButton({ id, initialIsAuthenticated }: { id: stri
 
   return (
     <div className="flex flex-col items-end gap-3">
-      <Turnstile
-        siteKey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY!}
-        onSuccess={(token) => setCaptchaToken(token)}
-      />
+      <div className="flex items-center gap-3 bg-surface p-2 rounded-xl border border-outline-variant/20 shadow-sm">
+        <span className="text-sm font-medium text-neutral-600 dark:text-neutral-300 whitespace-nowrap px-2">
+          What is {num1} + {num2}?
+        </span>
+        <input 
+          type="number" 
+          className="input-field py-1.5 px-3 w-20 text-center"
+          value={userAnswer}
+          onChange={(e) => setUserAnswer(e.target.value)}
+          placeholder="?"
+        />
+      </div>
+      
       <button 
         onClick={handleApprove}
-        disabled={isPending || !captchaToken}
+        disabled={isPending || !userAnswer}
         className="flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold transition-colors disabled:opacity-50 shadow-sm shadow-blue-500/20"
       >
         {isPending ? (
