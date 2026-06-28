@@ -38,7 +38,7 @@ export default async function ProfilePage() {
     
   const databases = new Databases(adminClient);
   
-  let submissions = [];
+  let submissions: any[] = [];
   try {
     const result = await databases.listDocuments(
       databaseId,
