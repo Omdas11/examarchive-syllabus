@@ -55,6 +55,7 @@ export async function approveAndPublishSyllabus(id: string, captchaToken: string
     const databases = new Databases(client);
     
     const payload = {
+      id: id,
       entry_id: frontmatter.entry_id || id,
       university: frontmatter.university || 'Unknown',
       course: frontmatter.course || 'Unknown',
