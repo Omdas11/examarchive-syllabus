@@ -16,9 +16,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Syllabus Vault",
-  description: "Review and approve dynamically generated syllabus files",
+  metadataBase: new URL("https://syllabus.examarchive.dev"),
+  title: {
+    default: "Syllabus Vault | ExamArchive",
+    template: "%s | Syllabus Vault",
+  },
+  description: "Community-driven syllabus repository for FYUGP students. Browse, verify, and submit structured course syllabi for Assam University and affiliated colleges.",
+  keywords: ["syllabus vault", "FYUGP syllabus", "Assam University syllabus", "course syllabus", "ExamArchive"],
+  icons: {
+    icon: [{ url: '/branding/logo.png', type: 'image/png' }],
+    apple: '/branding/logo.png',
+    shortcut: '/branding/logo.png',
+  },
+  openGraph: {
+    type: "website",
+    siteName: "ExamArchive",
+    title: "Syllabus Vault | ExamArchive",
+    description: "Browse and contribute structured FYUGP course syllabi.",
+    url: "https://syllabus.examarchive.dev",
+    images: [{ url: "/branding/logo.png", width: 512, height: 512, alt: "ExamArchive Syllabus Vault" }],
+  },
 };
+
 
 export default function RootLayout({
   children,
