@@ -68,8 +68,7 @@ export async function approveAndPublishSyllabus(id: string, captchaToken: string
       syllabus_content: content,
       lectures: frontmatter.credits ? frontmatter.credits * 15 : 0,
       tags: [frontmatter.paper_code],
-      status: 'pending', // The new status field we will add to Appwrite
-      submitted_by: userId // Ensure you create this attribute in Appwrite
+      status: 'pending' // The new status field we will add to Appwrite
     };
 
     await databases.createDocument(
