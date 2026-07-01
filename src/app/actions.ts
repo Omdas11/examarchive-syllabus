@@ -16,7 +16,7 @@ export async function approveAndPublishSyllabus(id: string, captchaToken: string
     const decodedCaptcha = Buffer.from(captchaToken, 'base64').toString('utf8');
     const [equation, answer] = decodedCaptcha.split('=');
     const [num1, num2] = equation.split('+').map(Number);
-    
+
     if (num1 + num2 !== parseInt(answer)) {
       return { success: false, error: "CAPTCHA verification failed." };
     }
@@ -24,7 +24,7 @@ export async function approveAndPublishSyllabus(id: string, captchaToken: string
     // 2. Get User ID from session cookie
     const cookieStore = await cookies();
     const sessionCookie = cookieStore.get('ea_session');
-    
+
     if (!sessionCookie?.value) {
       return { success: false, error: "You must be logged in to approve syllabi." };
     }
@@ -33,7 +33,7 @@ export async function approveAndPublishSyllabus(id: string, captchaToken: string
       .setEndpoint(endpoint)
       .setProject(projectId)
       .setSession(sessionCookie.value);
-    
+
     const account = new Account(sessionClient);
     let userId = '';
     try {
@@ -53,7 +53,7 @@ export async function approveAndPublishSyllabus(id: string, captchaToken: string
       .setKey(apiKey);
 
     const databases = new Databases(client);
-    
+
     const payload = {
       id: id,
       entry_id: frontmatter.entry_id || id,
@@ -68,7 +68,8 @@ export async function approveAndPublishSyllabus(id: string, captchaToken: string
       syllabus_content: content,
       lectures: frontmatter.credits ? frontmatter.credits * 15 : 0,
       tags: [frontmatter.paper_code],
-      status: 'pending' // The new status field we will add to Appwrite
+      status: 'pending', // The new status field we will add to Appwrite
+      submitted_by: userId // Ensure you create this attribute in Appwrite
     };
 
     await databases.createDocument(
@@ -89,7 +90,7 @@ export async function submitReport(paperId: string, reason: string) {
   try {
     const cookieStore = await cookies();
     const sessionCookie = cookieStore.get('ea_session');
-    
+
     if (!sessionCookie?.value) {
       return { success: false, error: "You must be logged in to report an issue." };
     }
@@ -98,7 +99,7 @@ export async function submitReport(paperId: string, reason: string) {
       .setEndpoint(endpoint)
       .setProject(projectId)
       .setSession(sessionCookie.value);
-    
+
     const account = new Account(sessionClient);
     let userId = '';
     try {
@@ -114,7 +115,7 @@ export async function submitReport(paperId: string, reason: string) {
       .setKey(apiKey);
 
     const databases = new Databases(adminClient);
-    
+
     await databases.createDocument(
       databaseId,
       'Reports_Table',
