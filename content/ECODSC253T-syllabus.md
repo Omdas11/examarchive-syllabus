@@ -18,6 +18,7 @@ version: 1
 last_updated: '2026-06-24'
 ---
 
-# Syllabus Not Found
-
-The syllabus for this paper has not been found or published yet.
+DSC253 
+Statistics for Economics 
+4 
+V

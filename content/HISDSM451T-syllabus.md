@@ -18,6 +18,14 @@ version: 1
 last_updated: '2026-06-24'
 ---
 
-# Syllabus Not Found
-
-The syllabus for this paper has not been found or published yet.
+HISDSM451T Historiography 
+4 
+DSM 1 
+ 
+ 
+Semester wise list of History SEC (Skill Enhancement Course) Papers 
+Semester 
+Paper 
+Title of Courses 
+Credits 
+I

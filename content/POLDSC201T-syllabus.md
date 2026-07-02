@@ -18,6 +18,175 @@ version: 1
 last_updated: '2026-06-24'
 ---
 
-# Syllabus Not Found
+DSC 201: COMPARATIVE GOVERNMENT AND POLITICS 
+Full marks- 100 
+(ESE- 70 Internal- 30) 
+Credit-4 
+Course Objectives: 
+35 
+1) To understand the meaning, nature, scope, evolution, and significance of comparative politics 
+as a field of study. 
+2) To compare different types of political regimes, including authoritarian and democratic 
+systems, as well as monarchical and republican systems. 
+3) To explore and classify political systems based on their institutional characteristics, such as 
+parliamentary and presidential systems, and federal and unitary systems. 
+4) To analyze contemporary debates on the nature of the state, including the shift from state- 
+centric security to human-centric security and the changing nature of the nation-state in the 
+context of globalization. 
+5) To conduct a comparative study of the constitutional systems of Great Britain and the United 
+States of America, examining their similarities and differences. 
+Units 
+Topics 
+Lectures 
+Comparative Politics: Meaning, Nature and Scope, Evolution and 
+: 
+Significance. 
+Comparing Regimes: Authoritarian and Democratic; Monarchy and 
+2 
+Republic. 
+Classifications of Political Systems: Parliamentary and Presidential; Federal 
+3 
+and Unitary. 
+Contemporary Debates on the Nature of State: From State Centric Security 
+4 
+to Human Centric Security, Changing Nature of Nation-State in the Context 
+of Globalization. 
+A Comparative study of Constitutional Systems: The Great Britain and the 
+5 
+United State of America. 
 
-The syllabus for this paper has not been found or published yet.
+36 
+ 
+Course Outcomes: 
+By the end of the course, students will be able to: 
+1) Understand and explain the meaning, nature, scope, evolution, and significance of 
+comparative politics as a field of study. 
+2) Compare and contrast different types of political regimes, such as authoritarian and 
+democratic systems, and monarchical and republican systems, and evaluate their implications for 
+governance and political dynamics. 
+3) Classify political systems based on their institutional characteristics, such as parliamentary 
+and presidential systems, and federal and unitary systems, and analyze the strengths and 
+weaknesses of each. 
+4) Analyze and critically evaluate contemporary debates on the nature of the state, including the 
+shift from state-centric security to human-centric security and the impact of globalization on the 
+nation-state. 
+5) Conduct a comparative study of the constitutional systems of Great Britain and the United 
+States of America, and identify and analyze the similarities and differences between their 
+political institutions and processes. 
+6) Apply comparative methods and approaches to analyze and understand political systems and 
+dynamics in different countries. 
+7) Apply comparative knowledge and understanding to analyze and evaluate political issues and 
+challenges in a global context. 
+References 
+1. Lijphart, A. (2012). Patterns of Democracy: Government Forms and Performance in Thirty-
+Six Countries. Yale University Press. 
+2. Diamond, L., & Plattner, M. F. (Eds.). (2013). Democratization in Africa: Progress and 
+Retreat (2nd ed.). Johns Hopkins University Press. 
+3. Linz, J. J., & Stepan, A. (2017). Problems of Democratic Transition and Consolidation: 
+Southern Europe, South America, and Post-Communist Europe (3rd ed.). Johns Hopkins 
+University Press. 
+4. Heywood, A. (2017). Political Ideologies: An Introduction (6th ed.). Palgrave Macmillan. 
+5. Wiarda, H. J., & Kline, H. (Eds.). (2018). Latin American Politics and Development (9th ed.). 
+Westview Press. 
+6. Carothers, T. (2002). The End of the Transition Paradigm. Journal of Democracy, 13(1), 5-21. 
+7. Huntington, S. P. (1991). The Third Wave: Democratization in the Late Twentieth Century. 
+University of Oklahoma Press. 
+8. O'Donnell, G. A., Schmitter, P. C., & Whitehead, L. (Eds.). (1986). Transitions from 
+Authoritarian Rule: Tentative Conclusions about Uncertain Democracies. Johns Hopkins 
+University Press. 
+36 
+Course Outcomes: 
+By the end of the course, students will be able to: 
+1) Understand and explain the meaning, nature, scope, evolution, and significance of 
+comparative politics as a field of study. 
+2) Compare and contrast different types of political regimes, such as authoritarian and 
+democratic systems, and monarchical and republican systems, and evaluate their implications for 
+governance and political dynamics. 
+3) Classify political systems based on their institutional characteristics, such as parliamentary 
+and presidential systems, and federal and unitary systems, and analyze the strengths and 
+weaknesses of each. 
+4) Analyze and critically evaluate contemporary debates on the nature of the state, including the 
+shift from state-centric security to human-centric security and the impact of globalization on the 
+nation-state. 
+5) Conduct a comparative study of the constitutional systems of Great Britain and the United 
+States of America, and identify and analyze the similarities and differences between their 
+political institutions and processes. 
+6) Apply comparative methods and approaches to analyze and understand political systems and 
+dynamics in different countries. 
+7) Apply comparative knowledge and understanding to analyze and evaluate political issues and 
+challenges in a global context. 
+References 
+1. Lyphart, A. (2012). Patterns of Democracy: Government Forms and Performance in Thirty- 
+Six Countries. Yale University Press. 
+2. Diamond, L., & Plattner, M. F. (Eds.). (2013). Democratization in Africa: Progress and 
+Retreat (2nd ed.). Johns Hopkins University Press. 
+3. Linz, J. J., & Stepan, A. (2017). Problems of Democratic Transition and Consolidation: 
+Southern Europe, South America, and Post-Communist Europe (3rd ed.). Johns Hopkins 
+University Press. 
+4. Heywood, A. (2017). Political Ideologies: An Introduction (6th ed.). Palgrave Macmillan. 
+5. Wiarda, H. J., & Kline, H. (Eds.). (2018). Latin American Politics and Development (9th ed.). 
+Westview Press. 
+6. Carothers, T. (2002). The End of the Transition Paradigm. Journal of Democracy, 13(1), 5-21. 
+7. Huntington, S. P. (1991). The Third Wave: Democratization in the Late Twentieth Century. 
+University of Oklahoma Press. 
+8. O'Donnell, G. A., Schmitter, P. C., & Whitehead, L. (Eds.). (1986). Transitions from 
+Authoritarian Rule: Tentative Conclusions about Uncertain Democracies. Johns Hopkins 
+University Press. 
+
+37 
+ 
+9. Elgie, R., Moestrup, S., & Rosoux, V. (Eds.). (2017). Semi-Presidentialism and Democracy. 
+Oxford University Press. 
+10. Keohane, R. O., & Nye Jr., J. S. (2001). Power and Interdependence: World Politics in 
+Transition. Pearson. 
+11. Mazumder, Narayan C. (2019). Comparative Government and Politics. Amardeep 
+Publications 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+37 
+9. Elgie, R., Moestrup, S., & Rosoux, V. (Eds.). (2017). Semi-Presidentialism and Democracy. 
+Oxford University Press. 
+10. Keohane, R. O., & Nye Jr., J. S. (2001). Power and Interdependence: World Politics in 
+Transition. Pearson. 
+11. Mazumder, Narayan C. (2019). Comparative Government and Politics. Amardeep 
+Publications 
+
+38 
+ 
+U. G. SYLLABUS - NEP 2020 
+Political Science 
+TDC (NEP) 3rd Semester 
+PLS:

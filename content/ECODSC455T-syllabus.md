@@ -18,6 +18,17 @@ version: 1
 last_updated: '2026-06-24'
 ---
 
-# Syllabus Not Found
+DSC455 Course is meant for those who have been allowed to choose 
+Research Project/Dissertation in the 8 Semester in lieu of the three advanced 
+level courses, viz, DSC452, DSC453 and DSC454. 
 
-The syllabus for this paper has not been found or published yet.
+4 
+ 
+ 
+ 
+Semester-wise list of ECODSM Courses 
+Semester DSM1/DSM2 Course Code 
+Title of Courses 
+Credits  
+I 
+DSM1

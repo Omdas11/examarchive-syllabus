@@ -18,6 +18,51 @@ version: 1
 last_updated: '2026-06-24'
 ---
 
-# Syllabus Not Found
+DSC: 451: Research Methodology 
+(For Honours with Research Group) 
+Full marks- 100 
+(ESE- 70 Internal- 30) 
+Credit- 4 
+122 
+Units 
+Topics 
+Lectures 
 
-The syllabus for this paper has not been found or published yet.
+123 
+ 
+U. G. SYLLABUS – NEP 2020 
+Political Science 
+TDC (NEP) 8th Semester 
+PLS: DSC: Research Project/ Dissertation Paper 
+(For Honours with Research Group) 
+Full marks- 300 
+Credit- 12 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+123 
+U. G. SYLLABUS — NEP 2020 
+Political Science 
+TDC (NEP) 8th Semester 
+PLS: DSC: Research Project/ Dissertation Paper 
+(For Honours with Research Group) 
+Full marks- 300 
+Credit- 12

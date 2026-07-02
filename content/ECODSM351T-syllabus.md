@@ -18,6 +18,8 @@ version: 1
 last_updated: '2026-06-24'
 ---
 
-# Syllabus Not Found
-
-The syllabus for this paper has not been found or published yet.
+DSM351 
+Indian Economy 
+4 
+VII 
+DSMI1

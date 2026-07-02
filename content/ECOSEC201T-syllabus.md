@@ -18,6 +18,11 @@ version: 1
 last_updated: '2026-06-24'
 ---
 
-# Syllabus Not Found
-
-The syllabus for this paper has not been found or published yet.
+SEC201 
+Introductory Data Analysis 
+3 
+Semester-wise list of IDC Courses 
+Semester | Course Code 
+Title of Courses 
+Credits 
+I

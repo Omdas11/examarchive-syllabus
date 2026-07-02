@@ -18,6 +18,109 @@ version: 1
 last_updated: '2026-06-24'
 ---
 
-# Syllabus Not Found
+PHIDSC 403 
+PHILOSOPHY OF M. kK. GANDHI 
+CONTACT HOUR: 60 
+FULL MARKS = 100 [ESE = 70/CCA = 30] 
+Course Objectives: The objectives of studying this paper are as follows: 
+i. 
+To explore Gandhi's concepts of truth (Satya) and non-violence (Ahimsa) and their significance 
+in his philosophy. 
+27
 
-The syllabus for this paper has not been found or published yet.
+CurriCulum for the four-Year undergraduate Programme 
+under the neW eduCation PoliCY 
+ 
+ii. 
+To examine the concepts of Swaraj (self-rule) and Swadeshi (self-sufficiency) and their relevance 
+to Indian independence and socio-economic development. 
+iii. 
+To investigate the principles of Sarvodaya (welfare of all) and Satyagraha (truth-force) as tools 
+for social change and justice. 
+iv. 
+To discuss Gandhi's views on human nature and how they inform his ethical and political 
+philosophy. 
+v. 
+To encourage critical thinking about Gandhian philosophy and their applicability to 
+contemporary social and political issues. 
+Unit I 
+Concept of Truth, Absolute and Relative Truth, Truth is God, Truth in Politics and Society. 
+Unit II 
+Meaning of Ahimsā  in Gandhi’s Philosophy, Ahimsā   in Buddhism and Jainism 
+Unit III 
+Philosophy of Basic Education 
+Social and Political Thought: Swarā j and Swadeshi 
+Unit IV 
+Sarvodaya, Satyā graha and Civil Disobedience 
+Unit V 
+Original Goodness and Human Nature, Religion and Politics. 
+Course Outcome: Upon completing the "Philosophy of M. K. Gandhi" course, students will 
+gain a comprehensive understanding of Gandhi's foundational concepts, including truth, non-
+violence, and social justice. They will critically analyze his philosophies on education, self-rule, 
+and community welfare, recognizing their relevance to contemporary issues. Students will also 
+explore the interplay between religion and politics in Gandhi's thought, fostering insights into 
+ethical leadership and activism. By engaging with Gandhi’s principles, students will be equipped 
+to apply his ideas to modern social challenges, promoting non-violent approaches to conflict 
+resolution and advocating for justice and equality in diverse contexts. 
+ 
+ 
+Suggested Readings: 
+1. Iyer, Raghavan (ed.), The Essential Writings of Mahatma Gandhi, Oxford Univ. 
+Press, India 1991. (Relevant Portions) 
+2. Iyer, Raghavan, The Moral and Political Thought of Mahatma Gandhi,. Oxford Univ. 
+Press India. (Relevant portions) 
+3. Datta, D.M., The Philosophy of Mahatma Gandhi, Calcutta University. 
+4. Dalton, Dennis, Power of Gandhi: Non-Violence in Action 
+5. Pieterse, Jan Nederveen & Parekh Bhikhu The Decolonization of Imagination 
+6. Radhakrishnan, Mahatma Gandhi : Essays and Reflections. 
+7. M. K. Gandhi, My Experiments with Truth, Navajivan Publications. 
+8. The Collected Works of Mahatma Gandhi. 
+ 
+28
+il. 
+To examine the concepts of Swaraj (self-rule) and Swadeshi (self-sufficiency) and their relevance 
+to Indian independence and socio-economic development. 
+ill. 
+To investigate the principles of Sarvodaya (welfare of all) and Satyagraha (truth-force) as tools 
+for social change and justice. 
+iv. 
+To discuss Gandhi's views on human nature and how they inform his ethical and political 
+philosophy. 
+V. 
+To encourage critical thinking about Gandhian philosophy and their applicability to 
+contemporary social and political issues. 
+Unit I 
+Concept of Truth, Absolute and Relative Truth, Truth is God, Truth in Politics and Society. 
+Unit I 
+Meaning of Ahimsa in Gandhi’s Philosophy, Ahimsa in Buddhism and Jainism 
+Unit IT 
+Philosophy of Basic Education 
+Social and Political Thought: Swaraj and Swadeshi 
+Unit IV 
+Sarvodaya, Satyagraha and Civil Disobedience 
+Unit V 
+Original Goodness and Human Nature, Religion and Politics. 
+Course Outcome: Upon completing the "Philosophy of M. K. Gandhi" course, students will 
+gain a comprehensive understanding of Gandhi's foundational concepts, including truth, non- 
+violence, and social justice. They will critically analyze his philosophies on education, self-rule, 
+and community welfare, recognizing their relevance to contemporary issues. Students will also 
+explore the interplay between religion and politics in Gandhi's thought, fostering insights into 
+ethical leadership and activism. By engaging with Gandhi’s principles, students will be equipped 
+to apply his ideas to modern social challenges, promoting non-violent approaches to conflict 
+resolution and advocating for justice and equality in diverse contexts. 
+Suggested Readings: 
+1. Iyer, Raghavan (ed.), The Essential Writings of Mahatma Gandhi, Oxford Univ. 
+Press, India 1991. (Relevant Portions) 
+2. Iyer, Raghavan, The Moral and Political Thought of Mahatma Gandhi,. Oxford Univ. 
+Press India. (Relevant portions) 
+Datta, D.M., The Philosophy of Mahatma Gandhi, Calcutta University. 
+Dalton, Dennis, Power of Gandhi: Non-Violence in Action 
+Pieterse, Jan Nederveen & Parekh Bhikhu The Decolonization of Imagination 
+Radhakrishnan, Mahatma Gandhi : Essays and Reflections. 
+M. K. Gandhi, My Experiments with Truth, Navajivan Publications. 
+The Collected Works of Mahatma Gandhi. 
+oN Dw KR 
+28
+
+CurriCulum for the four-Year undergraduate Programme 
+under the neW eduCation PoliCY

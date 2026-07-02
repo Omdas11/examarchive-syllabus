@@ -18,6 +18,7 @@ version: 1
 last_updated: '2026-06-24'
 ---
 
-# Syllabus Not Found
-
-The syllabus for this paper has not been found or published yet.
+DSC451 Course will be Rural Development. 
+2. DSC455 Course is meant for those who have been allowed to choose 
+Research Project/Dissertation in the 8 Semester in lieu of the three advanced 
+level courses, viz,

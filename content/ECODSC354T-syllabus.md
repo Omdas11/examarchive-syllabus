@@ -18,6 +18,7 @@ version: 1
 last_updated: '2026-06-24'
 ---
 
-# Syllabus Not Found
-
-The syllabus for this paper has not been found or published yet.
+DSC354 
+History of Economic Thought 
+4 
+Vi

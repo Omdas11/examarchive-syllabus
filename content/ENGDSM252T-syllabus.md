@@ -18,6 +18,8 @@ version: 1
 last_updated: '2026-06-24'
 ---
 
-# Syllabus Not Found
-
-The syllabus for this paper has not been found or published yet.
+ENGDSM-252 
+3 
+Essays and Short Stories 
+IV 
+AEC
