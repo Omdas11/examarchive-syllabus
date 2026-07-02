@@ -1,0 +1,25 @@
+---
+entry_type: syllabus
+entry_id: HGC-FYUG-BENAEC201T
+university: Assam University
+course: FYUG
+stream: Arts
+paper_code: BENAEC201T
+paper_title: "\u09AC\u09BF\u09B6 \u09B6\u09A4\u0995\u09C7\u09B0 \u09AC\u09BE\u0982\
+  \u09B2\u09BE \u09B8\u09BE\u09B9\u09BF\u09A4\u09CD\u09AF \u0993 \u09AD\u09BE\u09B7\
+  \u09BE"
+subject_code: BEN
+paper_type: AEC
+semester_code: '201'
+semester_no: 3
+credits: 2
+marks_total: 50
+source_reference: BENGALI.pdf
+status: draft
+version: 1
+last_updated: '2026-06-24'
+---
+
+# Syllabus Not Found
+
+The syllabus for this paper has not been found or published yet.
