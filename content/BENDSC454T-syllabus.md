@@ -20,39 +20,34 @@ version: 1
 last_updated: '2026-06-24'
 ---
 
-BEN-DSC-454 
-Name of the Course:  িবেশষ পাঠ- বাংলা Ʊলাকসািহত ও Ʊলাকসংƅৃিত-২ 
-Credits- 4; Contact Hours:   60 
-End Semester Exam Marks: 70; Internal (CCA) Marks: 30 
- 
-Course Objective:  This is an advanced course on Folkloristics. Objective of this course is to 
-provide some specialisation on folklore.  
- 
-Course Outcome: Study of this course will make the students well conversant with 
-contemporary trends in folklore studies both in theory and practice. Traditional human 
-knowledge is carved in elements of folklore. Theoretical intervention in this field would help in 
-reinventing the domain of knowledge lying in mass consciousness and re-formulating world 
-view.  
- 
- 
-Unit I:         Ʊ¢øসমী¢া- তô ও পĆিত, Ʊলাকসংƅৃিত চচƳায় Ʊ¢øসমী¢ার ªśü 
-Unit II:       ƱলাকসংƅৃিতচচƳায় পĆিতিবদা—Ĵাথিমক পেবƳর তô-পĆিত (পুরাকথার ভ°াংশতô, একেকিģক  
-              উĉবতô, বƝেকিģক উĉবতô, Ʊসৗরতô), ঐিতহািসক-Ʊভৗেগািলক পĆিত, টাইপ-Ʊমািটফ পĆিত, 
-                মনসমী¢ণ পĆিত       
-Unit III:      বাংলার Ņত—অবনীģনাথ ঠাকুর 
-Unit IV:        উóর পূবƳ ভারেত Ʊলাকসংƅৃিত চচƳার ধারা--- িবেশষ পাঠ বরাক ঊপতকা     
-Unit V: 
-বরাক উপতকার বােরামাসী গান- শািĜর বােরামাসী, রাধার বােরামাসী, সীতার বােরামাসী,  
-কমলার বােরামাসী  
- 
-সহায়ক ²Ġ:  
-১। তুষার চেÛাপাধায়- Ʊলাকসংƅৃিতর তôŜপ ও ƗŜপ সĥান, এ মুখািজƳ অাę ƱকাŐািন Ĵা. িল., কলকাতা। 
-২। সনৎকুমার িমø (সŐািদত)-  Ʊলাকসংƅৃিত চচƳা পুƌক িবপিণ, কলকাতা। 
-৩। অিচĜ িবųাস- Ʊলাকসংƅৃিতিবদা, অØিল পাবিলশাসƳ, কলকাতা। 
-৪। সনৎকুমার িমø (সŐািদত) -  Ʊমেয়িল Ņত িবষেয়, পুƌক িবপিণ, কলকাতা। 
-৫। শীলা বসাক- বাংলার Ņত-পাবƳণ, আনĢ পাবিলশাসƳ Ĵা. িল.,  কলকাতা। 
-৬। বśণকুমার চবতƳী- বাংলা Ʊলাকসািহত চচƳার ইিতহাস, পুƌক িবপিণ, কলকাতা। 
-৭। নĢলাল শমƳা- িসেলেটর বােরামািস গান, বাংলা একােডিম, ঢাকা।  
- 
- 
-Course Code:
+DSC-454
+Course Title: বিশেষ পাঠ- বাংলা লোকসাহিত্য ও\ লোকসংস্কৃতি-২
+Credits: 4 | Contact Hours: 60 | Marks: 100
+
+Course Objective: This is an advanced course on Folkloristics. Objective of this course is to provide some specialisation on folklore.
+
+Unit-I:
+সমী ার লাকসং ৃ িতচচায় প িতিবদ া— াথিমক পেবর ত -প িত (পুরাকথার ভ াংশত , একেকি ক
+
+Unit-II:
+উ বত , ব েকি ক উ বত , সৗরত ), ঐিতহািসক- ভৗেগািলক প িত, টাইপ- মািটফ প িত, মনসমী ণ প িত বাংলার ত—অবনী নাথ ঠাকুর
+
+Unit-IV:
+উ র পূ ব ভারেত লাকসং ৃ িত চচার ধারা--- িবেশষ পাঠ বরাক ঊপত কা
+
+Unit-V:
+বরাক উপত কার বােরামাসী গান শাি র বােরামাসী, রাধার বােরামাসী, সীতার বােরামাসী, কমলার বােরামাসী
+
+Course Outcome: Study of this course will make the students well conversant with contemporary trends in folklore studies both in theory and practice. Traditional human knowledge is carved in elements of folklore. Theoretical intervention in this field would help in reinventing the domain of knowledge lying in mass consciousness and re-formulating world view. সমী া- ত ও প িত, লাকসং ৃ িত চচায়
+
+Textbooks:
+1. Course Code: BEN-DSC-455
+
+Suggested Readings:
+1. তুষার চে াপাধ ায়- লাকসং ৃ িতর ত
+2. সনৎকুমার িম (স
+3. অিচ ািদত)- পও প স ান, এ মুখািজ অ া কা ািন লাকসং ৃ িত চচা পু ক িবপিণ, কলকাতা। িব াস- লাকসং ৃ িতিবদ া, অ িল পাবিলশাস, কলকাতা।
+4. সনৎকুমার িম (স ািদত) - মেয়িল ত িবষেয়, পু ক িবপিণ, কলকাতা।
+5. শীলা বসাক- বাংলার ত-পাবণ, আন পাবিলশাস া. িল., কলকাতা।
+6. ব ণকুমার চ বতী- বাংলা লাকসািহত চচার ইিতহাস, পু ক িবপিণ, কলকাতা।
+7. ন লাল শমা- িসেলেটর বােরামািস গান, বাংলা একােডিম, ঢাকা। Course Code: BEN-DSC-455 Research Dissertation (12 Credits) 28 | P a g e া. িল., কলকাতা।

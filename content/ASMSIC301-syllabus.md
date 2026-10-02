@@ -18,10 +18,6 @@ version: 1
 last_updated: '2026-06-24'
 ---
 
-ASMSIC - 301
-               Internship with Industry/Community Engagement/Field Study
-      Credit : 2
-১০70165061 - * 
-7১1১৮]; - 301 
-][1(21119]]1]) ্।{]] [00090 /0-0110]|0]1]1{)৮ [1168895211]210]["161]0 ১000 
-00810. 2
+SIC-301
+Course Title: Internship with Industry/Community Engagement/Field Study
+Credits: 2 | Contact Hours:  | Marks:

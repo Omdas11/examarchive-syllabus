@@ -18,143 +18,34 @@ version: 1
 last_updated: '2026-06-24'
 ---
 
-HISDSC451T 
-ECONOMIC HISTORY OF INDIA FROM 1206 TO 1707 CE 
-Contact Hours: 60 
-Full Marks = 100 [ESE (70) CCA (30)] 
-Course Objective: 
-This course aims to acquaint students with the economic conditions of some important dynasties and 
-empires of the period, which resulted due to both political intervention and technological change. This 
-course will also introduce students to aspects of agriculture, trade, and commerce in Medieval India. 
-Emphasis will also be on the emergence of new urban centers and the various causal factors behind the 
-phenomenon. 
-Unit I: Economy under Delhi Sultanate: 
-Iqta, revenue-free grants 
-Agricultural production, technology 
-Changes in rural society, revenue systems 
-Monetization, market regulations, growth of urban centers, trade, and commerce, 
-. 
-Indian Ocean Trade 
-(12 Lectures) 
-nit IH: Economy under Vijayanagar Dynasty: 
-Agriculture and land Tenures 
-Industries 
-Trade and Commerce 
-Taxation and Currency 
-Professional Associations and Guilds 
-(12 Lectures) 
-nit HI Economy under Mughal Empire: 
-Land Rights and Revenue System 
-Zamindars and peasants 
-Crafts and technologies; Monetary system 
-Markets; transportation, urban centres 
-Indian Ocean trade network 
-(12 Lectures) 
-nit [V Economy under Maratha Empire: 
-Land Revenue 
-Watandari System 
-Industries: Textile Industry, Metal Industry, Ship-building industry 
-Trade and Commerce, 
-Currency and Banking. 
-(12 Lectures) 
-nit V Economy under Ahoms: 
-Land Tenure 
-Occupations 
-Industries: Spinning and Weaving, Silk, Eri and Muga 
-Trade and Commerce 
-(12 Lectures) 
-PYeENFaAMSYRTraAMAYNF 
-AMY Nr aAMAYN?E 
-Expected learning outcomes: 
-After completing this course, the students will be able to acquire knowledge about the economic conditions 
-of Medieval India under some important dynasties and about the agriculture, trade, and commerce of that 
-period. 
-Suggested Readings: 
-1. 
-I Habib, Agrarian system of Mughal India, 1556-1707 
-2. 
-I Habib, The Economic History of India, 1206-1526 
-3. 
-J. N. Sarkar, Shivaji and His Times. 
-4. 
-K. A. N. Sastri, A History of South India. 
-5. 
-M. G. Ranade, Rise of the Maratha Power. 
-42
+DSC-451
+Course Title: Economic History of India from 1206 to 1707 CE
+Credits: 4 | Contact Hours: 60 | Marks: 100
 
-43 
- 
-6. 
-N K Basu, Assam in the Ahom Age (1228-1826) 
-7. 
-N N Acharyya, The history of medieval Assam 
-8. 
-S Chandra, A History of Medieval India 
-9. 
-S Chandra, Essays on Medieval Indian History.  
-10. 
-S Moosvi, The Economy of the Mughal Empire 
-11. 
-S. N. Sen, Shiva Chhatrapati 
-12. 
-S. N. Sen., Administrative system of the Marathas. 
-13. 
-T. T. Mahajan, Industry, Trade, Commerce during the Peshwa Period. 
-14. 
-T. V. Mahalingam, Economic Life in the Vijayanagar Empire 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-N K Basu, Assam in the Ahom Age (1228-1826) 
-NN Acharyya, The history of medieval Assam 
-S Chandra, A History of Medieval India 
-S Chandra, Essays on Medieval Indian History. 
-S Moosvi, The Economy of the Mughal Empire 
-S. N. Sen, Shiva Chhatrapati 
-S. N. Sen., Administrative system of the Marathas. 
-T. T. Mahajan, Industry, Trade, Commerce during the Peshwa Period. 
-T. V. Mahalingam, Economic Life in the Vijayanagar Empire 
-43
+Course Objective: This course aims to acquaint students with the economic conditions of some important dynasties and empires of the period, which resulted due to both political intervention and technological change. This course will also introduce students to aspects of agriculture, trade, and commerce in Medieval India. Emphasis will also be on the emergence of new urban centers and the various causal factors behind the phenomenon.
 
-44
+Unit-I: Economy under Delhi Sultanate:
+1. Iqta, revenue-free grants 2. Agricultural production, technology 3. Changes in rural society, revenue systems 4. Monetization, market regulations, growth of urban centers, trade, and commerce, 5. Indian Ocean Trade
+(12 Lectures)
+
+Unit-II: Economy under Vijayanagar Dynasty:
+1. Agriculture and land Tenures 2. Industries 3. Trade and Commerce 4. Taxation and Currency 5. Professional Associations and Guilds
+(12 Lectures)
+
+Unit-III: Economy under Mughal Empire:
+1. Land Rights and Revenue System 2. Zamindars and peasants 3. Crafts and technologies; Monetary system 4. Markets; transportation, urban centres 5. Indian Ocean trade network
+(12 Lectures)
+
+Unit-IV: Economy under Maratha Empire:
+1. Land Revenue 2. Watandari System 3. Industries: Textile Industry, Metal Industry, Ship-building industry 4. Trade and Commerce, 5. Currency and Banking.
+(12 Lectures)
+
+Unit-V: Economy under Ahoms:
+1. Land Tenure 2. Occupations 3. Industries: Spinning and Weaving, Silk, Eri and Muga 4. Trade and Commerce
+(12 Lectures)
+
+Course Outcome: After completing this course, the students will be able to acquire knowledge about the economic conditions of Medieval India under some important dynasties and about the agriculture, trade, and commerce of that period.
+
+Suggested Readings:
+1. 1. I Habib, Agrarian system of Mughal India, 1556-1707 2. I Habib, The Economic History of India, 1206-1526 3. J. N. Sarkar, Shivaji and His Times. 4. K. A. N. Sastri, A History of South India. 5. M. G. Ranade, Rise of the Maratha Power. 6. 7. 8. 9. 10. 11. 12. 13. 14. N K Basu, Assam in the Ahom Age (1228-1826) N N Acharyya, The history of medieval Assam S Chandra, A History of Medieval India S Chandra, Essays on Medieval Indian History. S Moosvi, The Economy of the Mughal Empire S. N. Sen, Shiva Chhatrapati S. N. Sen., Administrative system of the Marathas.
+2. T. T. Mahajan, Industry, Trade, Commerce during the Peshwa Period. T. V. Mahalingam, Economic Life in the Vijayanagar Empire

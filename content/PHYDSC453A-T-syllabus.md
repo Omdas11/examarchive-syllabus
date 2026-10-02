@@ -19,12 +19,35 @@ version: 1
 last_updated: "2026-06-23"
 ---
 
-## Syllabus
+DSC-453(A)
+Course Title: Astronomy Astrophysics and Cosmology
+Credits: 4 | Contact Hours: 60 | Marks: 100 [ESE (70) CCA(30)]
 
-| unit_number | syllabus_content | lectures | tags |
-|---|---|---|---|
-| 1 | **Introduction to Astronomy and Astronomical Scales:** Basic concepts of positional astronomy: Celestial Sphere, Geometry of a Sphere, Spherical Triangle, Astronomical Coordinate Systems, Geographical Coordinate Systems, Horizon System, Equatorial System, Diurnal Motion of the Stars, Conversion of Coordinates. Measurement of Time, Sidereal Time, Apparent Solar Time, Mean Solar Time, Equation of Time, Calendar. Basic Parameters of Stars: Determination of Distance by Parallax Method; Brightness, Radiant Flux and Luminosity, Apparent and Absolute magnitude scale, Distance Modulus; Determination of Temperature and Radius of a star; Determination of Masses from Binary orbits; Stellar Spectral Classification, Hertzsprung-Russell Diagram. | 12 | astronomy,astronomical-scales,coordinate-systems,stars |
-| 2 | **Astronomical Techniques:** Basic Optical Definitions for Astronomy (Magnification Light Gathering Power, Resolving Power and Diffraction Limit, Atmospheric Windows), Optical Telescopes (Types of Reflecting Telescopes, Telescope Mountings, Space Telescopes, Detectors and Their Use with Telescopes (Types of Detectors, detection Limits with Telescopes). | 12 | astronomical-techniques,telescopes,detectors |
-| 3 | **Physics of the Sun:** Solar Parameters, Solar Photosphere, Solar Atmosphere, Chromosphere. Corona, Solar Activity, Basics of Solar Magneto-hydrodynamics. Helioseismology. Stellar dynamics and Evolution: Virial Theorem, Hydrostatic equilibrium, Stellar energy sources, Hydrogen burning, Helium burning, Carbon burning, Neon burning, Oxygen burning, Silicon burning, Nucleosynthesis. End states of stellar evolution: White dwarfs, Chandrasekhar limit, Neutron stars, Pulsars, Black holes. | 12 | sun,solar-physics,stellar-evolution,black-holes |
-| 4 | **The Milky Way:** Basic Structure and Properties of the Milky Way, Nature of Rotation of the Milky Way (Differential Rotation of the Galaxy and Oort Constant, Rotation Curve of the Galaxy and the Dark Matter, Nature of the Spiral Arms), Stars and Star Clusters of the Milky Way, Properties of and around the Galactic Nucleus. | 12 | milky-way,galaxy-structure,dark-matter |
-| 5 | **Large Scale Structure & Expanding Universe:** Galaxies, morphological classification of galaxies, active galaxies, quasars. Expansion of the Universe, Hubble's law, Red shift, Cosmological Principle, Standard Cosmological Model, Big Bang theory, Cosmic Microwave Background Radiation, Evidence for dark matter and dark energy. | 12 | cosmology,galaxies,expanding-universe,big-bang |
+Course Objective: This course gives emphasis on providing the platform for understanding the origin and evolution of the Universe. The topics covered in this course gives a comprehensive introduction on the measurement of basic astronomical parameters such as astronomical scales, luminosity, astronomical quantities and astronomical techniques. The course also reviews the formation of planetary system and its evolution with time including stellar and interstellar components of our Milky Way galaxy.
+
+Unit-I: Basic concepts of positional astronomy
+Celestial Sphere, Geometry on a Sphere (Spherical Triangle), Astronomical Coordinate Systems, Geographical Coordinate Systems, Measurement of Time, Sidereal Time, Apparent Solar Time, Mean Solar Time, Equation of Time, Calendar. Basic Parameters of Stars: Determination of Distance by Parallax Method; Brightness, Radiant Flux and Luminosity, Apparent and Absolute magnitude scale, Distance Modulus; Determination of Temperature and Radius of a star. (12 Lectures)
+
+Unit-II: Astronomical techniques
+Basic Optical Definitions for Astronomy (Magnification Light Gathering Power, Resolving Power and Diffraction Limit, Atmospheric Windows), Optical Telescopes (Types of Reflecting Telescopes, Telescope Mountings, Space Telescopes, Detectors and Their Use with Telescopes (Types of Detectors, detection Limits with Telescopes). (12 Lectures)
+
+Unit-III: Sun
+The sun: Solar Parameters, Solar Photosphere, Solar Atmosphere, Chromosphere. Corona, Solar Activity. The solar family: Solar System: Facts and Figures, Origin of the Solar System: The Nebular Model, Tidal Forces and Planetary Rings. Stellar spectra and classification Structure (Atomic Spectra Revisited, Stellar Spectra, Spectral Types and Their Temperature Dependence, Black Body Approximation, H R Diagram). (12 Lectures)
+
+Unit-IV: The Milky Way
+Galaxy Morphology, Hubble's Classification of Galaxies, Basic Structure and Properties of the Milky Way, Nature of Rotation of the Milky Way (Qualitative ideas only), Stars and Star Clusters of the Milky Way, Properties of and around the Galactic Nucleus. (12 Lectures)
+
+Unit-V: Large scale structure & expanding universe
+Cosmic Distance Ladder (An Example from Terrestrial Physics, Distance Measurement using Cepheid Variables), Hubble's Law (Distance- Velocity Relation), Galaxy clusters, Virial theorem and introduction to dark Matter, Big-bang theory (Qualitative ideas). (12 Lectures)
+
+Course Outcome: At the end of this course the students are expected to learn basic concepts of positional astronomy, astronomical techniques, telescope optics and instrument detectors. Students are also expected to gather knowledge on the formation of planetary system and its evolution with time, the physical properties of Sun and the components of the solar system with special reference to our Milky Way galaxy. On successful completion of this course, the students will also have the knowledge to understand the physical laws that enable us to know the origin and evolution of galaxies, presence of dark matter and large-scale structures of the Universe.
+
+Suggested Readings:
+1. Modern Astrophysics, B.W. Carroll & D.A. Ostlie, Addison-Wesley Publishing Co.
+2. Introductory Astronomy and Astrophysics, M. Zeilik and S.A. Gregory, 4th Edition, Saunders College Publishing.
+3. Modern Astrophysics, B.W. Carroll & D.A. Ostlie, Addison-Wesley Publishing Co.
+4. Introductory Astronomy and Astrophysics, M. Zeilik and S.A. Gregory, 4th Edition, Saunders College Publishing.
+5. The physical universe: An introduction to astronomy, F.Shu, Mill Valley: University Science Books.
+6. Fundamental of Astronomy (Fourth Edition), H. Karttunen et al. Springer.
+7. Baidyanath Basu, 'An introduction to Astro physics', Second printing, Prentice -Hall of India Privatelimited, New Delhi, 2001.
+8. Textbook of Astronomy and Astrophysics with elements of cosmology, V.B. Bhatia, Narosa Publication.

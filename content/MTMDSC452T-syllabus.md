@@ -19,73 +19,29 @@ version: 1
 last_updated: '2026-06-24'
 ---
 
-DSC-452 
-Name of the Course 
-: Option B - Graph Theory 
-Learning level*** 
-: 600 
-Credits 
-:4 
-Contact Hours 
-: 60 
-Total Marks 
-: 100 
-End Semester Marks _ 
-: 70 
-Internal Marks 
-: 30 
-Course Objective 
-This course aims to provide students with a solid foundation in graph theory. It covers 
-graph definitions, properties, and operations, along with concepts like trees, 
-isomorphism, paths, and circuits. Learners will also gain proficiency in analyzing 
-planarity, weighted graphs, and solving optimization problems using algorithms like 
-Dijkstra's and Floyd-Warshall. 
-Unit-I 
-Definition, examples and basic properties of graphs, pseudo graphs, complete graphs, 
-bipartite graphs, digraphs, operations on graphs (union, intersection, product, 
-composition), subgraph, induced subgraph. 
-Unit-II 
-Walks, paths and circuits, Connected graph, disconnected graph, component, 
-Isomorphism of graphs. 
-Unit-III 
-Trees and their characterization, Spanning tree, Cut point, bridges and blocks, Eulerian 
-circuits, Hamiltonian cycles. 
-Unit-IV 
-Planarity: plane and planar graphs, outerplanar graphs, characterization of planar 
-graphs, Eulerian property of a planar graph, Kuratowski’s two graphs and the related 
-problems. 
-Unit-V 
-Matrix Representation of a graph: Incidence matrix, the adjacency matrix. Weighted 
-eraph, 
-Travelling 
-salesman's 
-problem, 
-shortest 
-path, 
-Diujkstra's 
-algorithm, 
-Floyd-Warshall algorithm. 
-Textbook : 
-1. Narsingh Deo, Graph Theory with Applications to Engineering and Computer 
-Science, 1*t ed., Dover Publications Inc., 2016. 
-Page 54 of 97
+DSC-452
+Course Title: Graph Theory
+Credits: 4 | Contact Hours: 60 | Marks: 100 [ESE (70) Internal (30)]
 
-Syllabus of Mathematics DSC Courses 
-Reference Book: 
-1. Frank Harary, Graph Theory, 1** ed., Narosa Publishing House, 2001. 
-Course Outcomes: 
-By the end of the course, students will be able to define and classify various graph types, 
-perform graph operations, identify key graph structures, and determine planarity. They 
-will also develop skills in applying algorithms to solve optimization problems and 
-shortest path calculations in real-world scenarios. Overall, this course equips students 
-with the knowledge and problem-solving skills needed to comprehend and work with 
-eraph theory effectively. 
-Page 55 of 97
+Course Objective: This course aims to provide students with a solid foundation in graph theory. It covers graph definitions, properties, and operations, along with concepts like trees, isomorphism, paths, and circuits. Learners will also gain proficiency in analyzing planarity, weighted graphs, and solving optimization problems using algorithms like Dijkstra's and Floyd-Warshall.
 
-Syllabus of Mathematics DSC Courses 
-Semester* 
-: VIII 
-Course Type 
-: DSC 
-Course Code** 
-: MAT-
+Unit-I:
+Definition, examples and basic properties of graphs, pseudo graphs, complete graphs, bipartite graphs, digraphs, operations on graphs (union, intersection, product, composition), subgraph, induced subgraph.
+
+Unit-II:
+Walks, paths and circuits, Connected graph, disconnected graph, component, Isomorphism of graphs.
+
+Unit-III:
+Trees and their characterization, Spanning tree, Cut point, bridges and blocks, Eulerian circuits, Hamiltonian cycles.
+
+Unit-IV:
+Planarity: plane and planar graphs, outerplanar graphs, characterization of planar graphs, Eulerian property of a planar graph, Kuratowski's two graphs and the related problems.
+
+Unit-V:
+Matrix Representation of a graph: Incidence matrix, the adjacency matrix. Weighted graph, Travelling salesman's problem, shortest path, Dijkstra's algorithm, Floyd-Warshall algorithm.
+
+Course Outcome: By the end of the course, students will be able to define and classify various graph types, perform graph operations, identify key graph structures, and determine planarity. They will also develop skills in applying algorithms to solve optimization problems and shortest path calculations in real-world scenarios. Overall, this course equips students with the knowledge and problem-solving skills needed to comprehend and work with graph theory effectively.
+
+Suggested Readings:
+1. Narsingh Deo, Graph Theory with Applications to Engineering and Computer
+2. Frank Harary, Graph Theory, 1st ed., Narosa Publishing House, 2001.

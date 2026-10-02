@@ -18,98 +18,29 @@ version: 1
 last_updated: '2026-06-24'
 ---
 
-HISDSC252T 
-HISTORY OF ASSAM FROM 1228 TO 1826 CE 
-Contact Hours: 60 
-Full Marks = 100 [ESE (70) CCA (30)] 
-Objective: 
-The course, History of Assam from 1228 to 1826 CE, aims to provide a comprehensive understanding of the 
-political, social, and economic dynamics of Assam with special reference to the Ahom dynasty and their 
-impact on society, culture, and politics. 
-Unit I 
-1. Land and People 
-2. Sources: 
-a) 
-Literary: Indigenous and Foreign 
-b) Archaeological: Epigraphic, Numismatic and material remains. 
-(12 Lectures) 
-3. Ahom tradition in writing history — Buranji 
-Unit I 
-1. Political condition of Assam at the beginning of the 13" century. 
-2. Origin of the Ahoms 
-3. Early Ahom conquests and foundations of the kingdom: Sukapha & Suhungmung (12 Lectures) 
-Unit II 
-1. Ahom relations with neighbouring kingdoms: Kachari, Kamata, Jayantia and Koch 
-a) Ahom resistance against the Mughals: Swargadeo Pratap Singha, Invasion of Mir Jumla, Lachit 
-Barphukan and Battle of Saraighat. 
-(12 Lectures) 
-Unit IV 
-1. Zenith of the Ahom Rule: Gadadhar Singha & Rudra Singha 
-2. Moamaria Rebellion: Causes and Results 
-3. Burmese Invasions 
-4. Downfall of the Ahom kingdom. 
-(12 Lectures) 
-Unit V 
-1. The Ahom system of administration. 
-2. Vaishnava Reformation in Assam: Srimanta Sankardev 
-3. Economy under the Ahoms 
-4. Social life of the Ahoms 
-(12 Lectures) 
-Expected learning outcomes: 
-After completing this course, the students will be able to understand about political, social, and economic 
-dynamics of Assam with special reference to the Ahom dynasty and their impact on society, culture, and 
-politics. 
-Reading List: 
-1. P. N. Dutta, Glimpses into the History of Assam 
-2. S.L.Barua: A Comprehensive History of Assam 
-3. L.Devi: Ahom Tribal Relations 
-4. P.Gogoi: The Tai and Tai Ahom Kingdoms (Relevant Chapters) 
-5. H.K.Barpujari: The Comprehensive History of Assam, Vol. II-III 
-6. R.G.Basak: History of North-East India 
-7. N.N.Basu: Social History of Kamrupa Volumes I-III 
-8. S.K.Bhuyan : Anglo-Assamese Relations 
-18
+DSC-252
+Course Title: History of Assam from 1228 to 1826 CE
+Credits: 4 | Contact Hours: 60 | Marks: 100
 
-19 
- 
-9. J. N. Sarkar: Life of Mirjumla 
-10. D.Dutta: History of Assam 
-11. Priyam Goswami, A History of Assam (1826-1947) 
-12. N. N. Acharyya, A Brief History of Assam 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-9. J. N. Sarkar: Life of Mirjumla 
-10. D.Dutta: History of Assam 
-11. Priyam Goswami, A History of Assam (1826-1947) 
-12. N. N. Acharyya, A Brief History of Assam 
-19
+Course Objective: The course, History of Assam from 1228 to 1826 CE, aims to provide a comprehensive understanding of the political, social, and economic dynamics of Assam with special reference to the Ahom dynasty and their impact on society, culture, and politics.
 
-20
+Unit-I:
+1. Land and People 2. Sources: a) Literary: Indigenous and Foreign b) Archaeological: Epigraphic, Numismatic and material remains. 3. Ahom tradition in writing history – Buranji
+(12 Lectures)
+
+Unit-II:
+1. Political condition of Assam at the beginning of the 13th century. 2. Origin of the Ahoms 3. Early Ahom conquests and foundations of the kingdom: Sukapha & Suhungmung (12 Lectures)
+
+Unit-III:
+1. Ahom relations with neighbouring kingdoms: Kachari, Kamata, Jayantia and Koch a) Ahom resistance against the Mughals: Swargadeo Pratap Singha, Invasion of Mir Jumla, Lachit Barphukan and Battle of Saraighat.
+(12 Lectures)
+
+Unit-IV:
+1. Zenith of the Ahom Rule: Gadadhar Singha & Rudra Singha 2. Moamaria Rebellion: Causes and Results 3. Burmese Invasions 4. Downfall of the Ahom kingdom.
+(12 Lectures)
+
+Unit-V:
+1. The Ahom system of administration. 2. Vaishnava Reformation in Assam: Srimanta Sankardev 3. Economy under the Ahoms 4. Social life of the Ahoms
+(12 Lectures)
+
+Course Outcome: After completing this course, the students will be able to understand about political, social, and economic dynamics of Assam with special reference to the Ahom dynasty and their impact on society, culture, and politics. Reading List: 1. P. N. Dutta, Glimpses into the History of Assam 2. S.L.Barua: A Comprehensive History of Assam 3. L.Devi: Ahom Tribal Relations 4. P.Gogoi: The Tai and Tai Ahom Kingdoms (Relevant Chapters) 5. H.K.Barpujari: The Comprehensive History of Assam, Vol. II-III 6. R.G.Basak: History of North-East India 7. N.N.Basu: Social History of Kamrupa Volumes I-III 8. S.K.Bhuyan : Anglo-Assamese Relations 9. J. N. Sarkar: Life of Mirjumla 10. D.Dutta: History of Assam 11. Priyam Goswami, A History of Assam (1826-1947) 12. N. N. Acharyya, A Brief History of Assam
